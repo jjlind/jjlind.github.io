@@ -10,13 +10,25 @@
       a {
         color: rgb(235, 134, 235, 0.2);
       }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-size: 62.5%
+      }
       h1 {
-          font-size: 30px;
-          .bio-box {
-            border: 1px solid #000;
-            font-size: 1em;
-            width: 50%;
-          }
+        font-size: 2em;
+        margin-top: 0;
+      }
+
+      /* HERO STYLES */
+      .full-hero {
+        background-color: #c7dbfc;
+        height: 50vh;
+        width: 75vw;
+      }
+      .hero-home {
       }
 
       /* SOCIAL STYLES */
@@ -28,7 +40,6 @@
 
       /* BIO STYLES */
       .bio-wrapper {
-          font-size: 24px;
       }
       .bio-box {
         border: 1px solid #000;
@@ -47,18 +58,20 @@
     </style>
   </head>
   <body>
-    <h1 class="social-link">I'm an h1</h1>
-    <ul class="social-link">
-      <li>
-        <a href="http://example.com/">Link</a>
-      </li>
-      <li>
-        <a href="http://example.com/">Link</a>
-      </li>
-      <li>
-        <a href="http://example.com/">Link</a>
-      </li>
-    </ul>
+    <div class="full-hero hero-home">
+        <h1>I'm an h1</h1>
+        <ul class="social-link">
+          <li>
+            <a href="http://example.com/" class="social-link">Link</a>
+          </li>
+          <li>
+            <a href="http://example.com/" class="social-link">Link</a>
+          </li>
+          <li>
+            <a href="http://example.com/" class="social-link">Link</a>
+          </li>
+        </ul>
+    </div>
     <h2>I'm an h2</h2>
       <div class="bio-wrapper">
        <div class="bio-box">
