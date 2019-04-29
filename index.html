@@ -27,6 +27,9 @@
         background-color: #c7dbfc;
         height: 50vh;
         width: 75vw;
+        li {
+            display: inline;
+        }
       }
       .hero-home {
       }
@@ -36,6 +39,12 @@
         /* You have to use '.' (dot) character in fractions as in '0.5' */
         background: rgba(150, 150, 150, 0.2);
         color: #00f;
+        display: inline-block;
+        height: 36px;
+        width: 36px;
+      }
+      .show {
+          display: block;
       }
 
       /* BIO STYLES */
@@ -55,17 +64,30 @@
       .bio-copy a {
         color: #0f0;
       }
+
+      .test-box {
+    background: #9db6dd;
+    margin: 50px;
+  }
+  .test-box-nosizing {
+    border: 10px solid #000;
+    padding: 40px;
+  }
+  .test-box-sizing {
+    box-sizing: border-box;
+  }
+
     </style>
   </head>
   <body>
     <div class="full-hero hero-home">
         <h1>I'm an h1</h1>
-        <ul class="social-link">
+        <ul>
           <li>
             <a href="http://example.com/" class="social-link">Link</a>
           </li>
           <li>
-            <a href="http://example.com/" class="social-link">Link</a>
+            <a href="http://example.com/" class="social-link show">Link</a>
           </li>
           <li>
             <a href="http://example.com/" class="social-link">Link</a>
@@ -73,6 +95,19 @@
         </ul>
     </div>
     <h2>I'm an h2</h2>
+
+    <div class="test-box">
+            200px wide
+          </div>
+    <div class="test-box test-box-nosizing">
+        <p>test-box test-box-nosizing</p>
+            200px wide + border + padding = 300px
+          </div>
+    <div class="test-box test-box-nosizing test-box-sizing">
+        <p>200px wide + border + padding + box-sizing: border-box = 200px</p>
+            200px wide + border + padding + box-sizing: border-box = 200px
+          </div>
+
       <div class="bio-wrapper">
        <div class="bio-box">
          <h3>Michael Hartl</h3>
