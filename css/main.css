@@ -34,15 +34,23 @@ body {
 .header-logo:active {
   opacity: 0.5;
 }
+.header-nav > li:first-child a {
+    color: #ed6e2f;
+}
+.header-nav > li:first-child a:hover {
+    color: #000;
+}
+.header-nav >li:last-child a {
+    color: hotpink;
+}
+.header-nav > li:last-child a:hover {
+    color: greenyellow;
+}
 
 /* HERO STYLES */
 .full-hero {
   background-color: #c7dbfc;
   height: 50vh;
-}
-.full-hero:hover,
-.full-hero:active {
-    background-color: #ed6e2f;
 }
 
 /* SOCIAL STYLES */
