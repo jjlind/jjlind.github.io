@@ -124,6 +124,20 @@ h2 ~ p {
   height: 50vh;
   width: 100%;
 }
+
+/* After figure 6.4; i.e. Listing 6.4 */
+.full-hero {
+  background-color: #c7dbfc;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 100vh;
+  padding-top: 10vh;
+}
+.hero-home {
+  background-image: url(/images/shark.jpg);
+  background-position: center top;
+}
+/* Reflect Figure 6.10 */
 .hero-content {
   color: #fff;
   position: relative;
@@ -144,19 +158,6 @@ h2 ~ p {
 .hero-content .social-link:hover {
   background-color: #000;
   color: #fff;
-}
-
-/* After figure 6.4; i.e. Listing 6.4 */
-.full-hero {
-  background-color: #c7dbfc;
-  background-size: cover;
-  box-sizing: border-box;
-  height: 100vh;
-  padding-top: 10vh;
-}
-.hero-home {
-  background-image: url(/images/shark.jpg);
-  background-position: center top;
 }
 
 /* SOCIAL STYLES */
