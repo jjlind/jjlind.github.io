@@ -226,7 +226,7 @@ h2 ~ p {
 }
 .home-callout {
   display: flex;
-  /* align-items: center; */
+  align-items: center;
   align-items: flex-end;
   background-color: #000;
   color: #fff;
