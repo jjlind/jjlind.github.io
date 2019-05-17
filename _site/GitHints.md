@@ -2,12 +2,12 @@
 HINTS at solutions to various problems based on experience.
 
 Problem #1:
---------
+-----------
 
     Files on remote repository is OK, but the local files have been fucked up.
 
 Solution #1:
------------
+------------
 
     One way to get out of it is to delete all your files including the '.git' (you may want
     to copy all to a backup directory first though).
@@ -98,6 +98,17 @@ Solution #1:
 
     And during the whole "solution" above, "jekyll" server kept tracking the files, so that they
     could be served - if present.
+
+
+Problem #2:
+-----------
+
+    Files on local repository is OK, but a file is no longer tracked on remote repository.
+
+Solution #2:
+------------
+
+    ???
 
 --------------------------------------------------------------------------------------------------------
 
