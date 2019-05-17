@@ -25,6 +25,7 @@ body {
   flex-basis: auto;
   *  is equivalent to
   */
+  display: flex;
   flex: 1 1 auto;
   padding-top: 10vh;
   width: 100%;
@@ -134,16 +135,27 @@ h2 ~ p {
   color: #ccc;
 }
 
-/* HERO STYLES */
-.full-hero {
-  background-color: #c7dbfc;
-  height: 50vh;
+/* COLUMN STYLES */
+.col-three {
+  display: flex;
+  flex: 1;
 }
-.full-hero {
-  display: inline-block;
-  background-color: #c7dbfc;
-  height: 50vh;
-  width: 100%;
+.col {
+  box-sizing: border-box;
+  padding: 2em;
+}
+.col-three .col ~ .col {
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+.col-three .col-nav {
+  flex: 0 1 15em;
+}
+.col-three .col-content {
+  flex: 1;
+  /* flex: 1 1 30em; */
+}
+.col-three -col-aside {
+  flex: 0 1 20em;
 }
 
 /* After figure 6.4; i.e. Listing 6.4 */
