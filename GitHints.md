@@ -98,3 +98,14 @@ Solution #1:
 
     And during the whole "solution" above, "jekyll" server kept tracking the files, so that they
     could be served - if present.
+
+--------------------------------------------------------------------------------------------------------
+
+Create a new branch for experiments.
+====================================
+
+    git checkout -b excercises-6-2-1        <-- Creates a new branch for excercises.
+
+    git checkout master                     <-- Switches back to main branch; the trunk.
+
+    git branch -d excercises-6-2-1          <-- Remove the branch and forget about the changes.

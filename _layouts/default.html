@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
+  <!-- flexbox container -->
   <body>
+    <!-- 1st potential flexbox item, but not flexing because position: fixed -->
     {% include header.html greeting="" %}
 
-    {{  content }}
+    <!-- 2nd flexbox item, the only one that will be changing in size -->
+    <div class="content-container">
+      {{  content }}
+    </div>
 
+    <!-- 3rd potential flexbox item, but not given a flex: property -->
     {% include footer.html %}
   </body>
 </html>
