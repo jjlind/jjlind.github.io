@@ -19,7 +19,13 @@ body {
   min-height: 100vh;
 }
 .content-container {
+  /*
   flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  *  is equivalent to
+  */
+  flex: 1 1 auto;
   padding-top: 10vh;
   width: 100%;
 }
@@ -226,6 +232,7 @@ h2 ~ p {
 }
 .home-callout {
   display: flex;
+/*  flex-direction: column-reverse;   */
   align-items: center;
   /* align-items: flex-start; */
   background-color: #000;
@@ -237,17 +244,32 @@ h2 ~ p {
   margin-top: 1em;
 }
 .callout-title {
+  /*
   flex-grow: 1;
+  (flex-shrink is 1 by default)
   flex-basis: 0;
+  * This is equivalent to
+  *       flex: 1 1 0;
+  * which in turn may be shortened to
+  */
+  flex: 1;            /*  Sets 1st value to something other than
+                       * default ('1'), and leaves other values
+                       * at their default settings.
+                       */
   font-size: 5.75vw;
   text-align: right;
   text-transform: uppercase;
 }
 .callout-copy {
+  /*
+  (flex-grow is 0 by default)
   flex-shrink: 0;
   flex-basis: 45em;
-  padding: 0 3vw;
+  *  This is equivalent to
+  */
+  flex: 0 0 45em;
   font-size: 0.8rem;
+  padding: 0 3vw;
 }
 
 /* BIO STYLES */

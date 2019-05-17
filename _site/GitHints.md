@@ -108,7 +108,11 @@ Problem #2:
 Solution #2:
 ------------
 
-    ???
+    This is most probably not really the case.
+
+    Check which files, you are editing and viewing on remote respectovely.
+    You may inadvertently have startet editing main.css under the _site directory
+    instead of the file under the css directory for instance.
 
 --------------------------------------------------------------------------------------------------------
 
