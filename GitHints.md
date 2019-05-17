@@ -106,6 +106,10 @@ Create a new branch for experiments.
 
     git checkout -b excercises-6-2-1        <-- Creates a new branch for excercises.
 
+See below!
+
     git checkout master                     <-- Switches back to main branch; the trunk.
 
     git branch -d excercises-6-2-1          <-- Remove the branch and forget about the changes.
+
+NB! The above isn't sufficient. My guess is a commit is needed before switching to master.
