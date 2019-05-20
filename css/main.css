@@ -1,11 +1,3 @@
-/********************************
- *                              *
- *    Active CSS below here     *
- *                              *
- *  Copied from Listing 5.45    *
- *                              *
- ********************************
- */
 
 /* GLOBAL STYLES */
 html {
@@ -19,13 +11,13 @@ body {
   min-height: 100vh;
 }
 .content-container {
+  display: flex;
   /*
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: auto;
   *  is equivalent to
   */
-  display: flex;
   flex: 1 1 auto;
   padding-top: 10vh;
   width: 100%;
@@ -158,6 +150,7 @@ h2 ~ p {
   flex: 0 1 20em;
 }
 
+
 /* After figure 6.4; i.e. Listing 6.4 */
 /* HERO STYLES */
 .full-hero {
@@ -244,11 +237,18 @@ h2 ~ p {
 }
 .home-callout {
   display: flex;
-/*  flex-direction: column-reverse;   */
+  /* flex-direction: column-reverse; */
   align-items: center;
   /* align-items: flex-start; */
   background-color: #000;
   color: #fff;
+  padding: 7vh 0;
+}
+.home-callout {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  display: flex;
   padding: 7vh 0;
 }
 .home-callout h3 {
