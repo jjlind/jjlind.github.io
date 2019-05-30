@@ -124,3 +124,18 @@ See below!
     git branch -d excercises-6-2-1          <-- Remove the branch and forget about the changes.
 
 NB! The above isn't sufficient. My guess is a commit is needed before switching to master.
+
+--------------------------------------------------------------------------------------------------------
+
+Make branch the new master.
+============================
+
+    git checkout feature_branch
+    git merge -s ours --no-commit master
+    git commit      # Add a message regarding the replacement that you just did
+    git checkout master
+    git merge feature_branch
+
+    See: https://git.tutorialhorizon.com//2014/10/05/replace-the-master-branch-with-another-branch-in-git/
+
+--------------------------------------------------------------------------------------------------------
