@@ -348,6 +348,8 @@ h2 ~ p {
 .gallery-thumbs .current img {
   box-shadow: 0 0 0 5px #ed6e2f;
   opacity: 1;
+  /* The cursor setting below is from exercise 7.5.1 */
+  cursor: default;
 }
 .gallery-photo {
   position: relative;
