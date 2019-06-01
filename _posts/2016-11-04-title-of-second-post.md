@@ -1,14 +1,12 @@
 ---
 layout: post
-title: This is the title of the post
+title: How to find the gems in life
 postHero: /images/shark.jpg
 author: Ruby Meter Maid
 authorTwitter: http://twitter.com/mhartl
 gravatar: http://madogvenner.dk/wp-content/uploads/2017/05/ImageHandler-3.jpg
 postFooter: Additional information, and maybe a <a href="#">link or two</a>
 ---
-
-J: This is a Ruby Post.
 
 The main place where libraries are hosted is RubyGems.org, a public repository of gems that can be searched and installed onto your machine. You may browse and search for gems using the RubyGems website, or use the gem command.
 
