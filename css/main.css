@@ -540,6 +540,7 @@ h2 ~ p {
 
   /* BLOG STYLES */
   .post-aside {
+    /* display: none; */
     display: block;
     float: none;
   }
