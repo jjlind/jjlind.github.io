@@ -10,9 +10,9 @@ postFooter: Additional information, and maybe a <a href="#">link or two</a>
 
 The main place where libraries are hosted is RubyGems.org, a public repository of gems that can be searched and installed onto your machine. You may browse and search for gems using the RubyGems website, or use the gem command.
 
-Using gem search -r, you can search RubyGems’ repository. For instance, gem search -r rails will return a list of Rails-related gems. With the --local (-l) option, you would perform a local search through your installed gems. To install a gem, use gem install [gem]. Browsing installed gems is done with gem list. For more information about the gem command, see below or head to RubyGems’ docs.
+<img class="pull-left" src="http://madogvenner.dk/wp-content/uploads/2017/05/ImageHandler-3.jpg">
 
-<img src="http://madogvenner.dk/wp-content/uploads/2017/05/ImageHandler-3.jpg">
+Using gem search -r, you can search RubyGems’ repository. For instance, gem search -r rails will return a list of Rails-related gems. With the --local (-l) option, you would perform a local search through your installed gems. To install a gem, use gem install [gem]. Browsing installed gems is done with gem list. For more information about the gem command, see below or head to RubyGems’ docs.
 
 There are other sources of libraries though. GitHub is the main Ruby-related content repository. Most often a gem source code will be hosted on GitHub while being published as a fully-fledged gem to RubyGems.org.
 
