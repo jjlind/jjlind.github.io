@@ -1,3 +1,4 @@
+# jjlind.github.io
 
 HINTS at solutions to various problems based on experience.
 
